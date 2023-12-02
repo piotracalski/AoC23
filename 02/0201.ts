@@ -3,7 +3,6 @@ import { readInput } from '../utils';
 // const input = readInput({path: './02/Tinput0201.txt'})
 const input = readInput({path: './02/input.txt'})
 
-const sanitisedInput = input.split('\n').map(game => game.replace(/Game\s[0-9]:\s/, '').split('; '))
 const MAX_CUBES = new Map([
   ['red', 12],
   ['green', 13],
